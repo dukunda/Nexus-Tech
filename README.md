@@ -11,7 +11,7 @@
 This project is a multi-page website built for **Nexus Tech Society**, an organization dedicated to technological literacy. [cite_start]The core objective was to implement a fully structured website using **pure HTML5**—without any CSS or JavaScript—to demonstrate mastery of web semantics and structure[cite: 4, 5, 8].
 
 ## 🖼️ Website Screenshot
-![Nexus Tech Society Home Page](screenshot.png)
+![Nexus Tech Society Home Page](Screenshot.png)
 [cite_start].
 
 ## 📁 File Structure
