@@ -7,8 +7,8 @@ Submission Details
 
 Deadline: Monday, 26th January, 2026.
 
-Developer: [Your Name]
-
+Developer: IRADUKUNDA KEVIN
+REG No: 25RP00541
 Organization: Nexus Tech Society
 
 File Structure
