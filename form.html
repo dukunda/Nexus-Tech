@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nexus Tech | Join Us</title>
+</head>
+<body>
+    <header>
+        <h1>Nexus Tech Society</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="form.html">Join Us</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Member Registration Form</h2>
+            <p>Please fill out all fields to join our society.</p>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fname" required><br><br>
+
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="user_email" placeholder="name@example.com"><br><br>
+
+                    <label for="user_pass">Create Password:</label>
+                    <input type="password" id="user_pass" name="user_pass"><br><br>
+
+                    <label for="bday">Date of Birth:</label>
+                    <input type="date" id="bday" name="bday"><br><br>
+
+                    <label for="user_phone">Phone Number:</label>
+                    <input type="tel" id="user_phone" name="user_phone" pattern="[0-9]{10}"><br><br>
+
+                    <label for="portfolio">Portfolio URL:</label>
+                    <input type="url" id="portfolio" name="portfolio"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Technical Preferences</legend>
+
+                    <label for="track">Primary Tech Track:</label>
+                    <select id="track" name="track">
+                        <optgroup label="Software Development">
+                            <option value="frontend">Frontend Development</option>
+                            <option value="backend">Backend Development</option>
+                        </optgroup>
+                        <optgroup label="Data & Cloud">
+                            <option value="ai">Artificial Intelligence</option>
+                            <option value="cloud">Cloud Computing</option>
+                        </optgroup>
+                    </select><br><br>
+
+                    <label for="lang">Favorite Programming Language:</label>
+                    <input list="languages" id="lang" name="lang">
+                    <datalist id="languages">
+                        <option value="Python">
+                        <option value="JavaScript">
+                        <option value="C++">
+                        <option value="Ruby">
+                    </datalist><br><br>
+
+                    <p>Membership Level:</p>
+                    <input type="radio" id="student" name="level" value="student">
+                    <label for="student">Student</label><br>
+                    <input type="radio" id="pro" name="level" value="pro">
+                    <label for="pro">Professional</label><br><br>
+
+                    <p>Interests:</p>
+                    <input type="checkbox" id="hack" name="interest" value="hack">
+                    <label for="hack">Hackathons</label><br>
+                    <input type="checkbox" id="work" name="interest" value="work">
+                    <label for="work">Workshops</label><br><br>
+
+                    <label for="experience">Experience Level (1-10):</label>
+                    <input type="range" id="experience" name="experience" min="1" max="10"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Details</legend>
+                    <label for="bio">Short Bio:</label><br>
+                    <textarea id="bio" name="bio" rows="4" cols="50"></textarea><br><br>
+
+                    <label for="skill_level">Profile Completion:</label>
+                    <meter id="skill_level" value="0.6">60%</meter><br><br>
+                    
+                    <button type="submit">Submit Membership Application</button>
+                    <button type="reset">Clear Form</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Return to <a href="index.html">Home</a></p>
+    </footer>
+</body>
+</html>
